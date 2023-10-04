@@ -1,0 +1,6 @@
+.fortnite-details-header h4{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+}

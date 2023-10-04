@@ -1,0 +1,48 @@
+.most-popular-clips-card-container{
+    flex: 1 1 20%;
+
+    background-color: var(--color-dark);
+    padding:calc(var(--margin-primary)/ 2) calc(var(--margin-primary)/ 4);
+    border-radius: var(--border-redius-primary);
+    margin: calc(var(--margin-primary)/4);
+}
+.most-popular-clips-card-img-container{
+    position: relative;
+}
+.most-popular-clips-card-img-container a{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-lite);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: calc(var(--border-redius-primary)*2);
+    color: var(--color-primary) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.most-popular-clips-card-img{
+    border-radius: var(--border-redius-primary);
+    width: 100%;
+}
+.most-popular-clips-card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--padding-primary)/4) 0 0 0 ;
+}
+.most-popular-clips-card-info h4{ 
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+}
+.most-popular-clips-card-info span{ 
+   color: var(--color-primary);
+}
+
+@media only screen and (max-width: 992px) {
+    .most-popular-clips-card-container {
+      flex: 1 100%;
+    }
+  }

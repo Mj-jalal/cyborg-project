@@ -1,0 +1,32 @@
+
+.fortnite-details-left-info{
+    display: flex;
+    justify-content: space-between;
+    padding:calc(var(--padding-primary)/2) ;
+    background-color: var(--color-dark);
+    border-radius: var(--border-redius-primary);
+    margin: 5px;
+}
+.fortnite-details-right-info{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: var(--border-redius-primary);
+    background-color: var(--color-dark);
+    padding:calc(var(--padding-primary)/2);
+    margin: 5px;
+}
+.left-info-star, .right-info-star{
+    color: var(--color-icons);
+}
+.left-info-download, .right-info-fa{
+    color: var(--color-primary);
+}
+.left-info-title{
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+}
+.left-info-category{
+    color: #555657;
+    font-weight: var(--font-weight-normal);
+    font-size: 18px;
+}

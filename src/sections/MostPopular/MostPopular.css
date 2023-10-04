@@ -1,0 +1,15 @@
+.most-popular-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: calc(var(--padding-primary)/2) 0;
+}
+.most-popular-btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}

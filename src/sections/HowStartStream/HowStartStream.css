@@ -1,0 +1,11 @@
+.how-start-stream-container{
+    text-align: center;
+    padding:calc(var(--padding-primary)/2) 0 ;
+    margin: calc(var(--margin-primary)/2) 0;
+}
+.how-start-stream-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: var(--padding-primary) 0;
+}

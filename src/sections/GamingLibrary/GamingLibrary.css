@@ -1,0 +1,13 @@
+.gaming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: calc(var(--padding-primary)/2) 0; 
+}
+.gaming-library-btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}

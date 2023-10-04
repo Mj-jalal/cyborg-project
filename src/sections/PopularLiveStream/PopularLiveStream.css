@@ -1,0 +1,13 @@
+.popular-stream-live-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular-stream-live-btn{
+   
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}

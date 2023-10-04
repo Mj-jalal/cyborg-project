@@ -1,0 +1,23 @@
+.related-g{
+    padding: calc(var(--padding-primary)/2) 0;
+}
+.related-g-container{
+    border-bottom: 1px solid #27292a;
+    margin:calc(var(--margin-primary)/4) ;
+}
+.related-game-image{
+    border-radius: calc(var(--border-redius-primary)/2);
+    margin-right: calc(var(--margin-primary)/2)
+}
+.related-game-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: var(--font-weight-bold);
+}
+.related-game-title span{
+    font-weight: var(--font-weight-bold);
+}
+.relaterd-game-catygory{
+    color: #555657;
+    font-weight: var(--font-weight-normal);
+}

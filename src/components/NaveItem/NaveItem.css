@@ -1,0 +1,9 @@
+
+
+
+@media only screen and (max-width: 992px) {
+    .nav-item:nth-last-child(n+2){
+        border-bottom: 1px solid #d8d7d7;
+        padding: 10px;
+    }
+  }

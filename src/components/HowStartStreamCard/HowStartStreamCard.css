@@ -1,0 +1,22 @@
+.how-start-stream-card{
+    flex: 1 1 25%;
+    padding:calc( var(--padding-primary)/2);
+    border: 1px solid #555657;
+    border-radius: var(--border-redius-primary);
+    margin: calc(var( --margin-primary)/4);
+    text-align: left !important;
+}
+.how-start-stream-card-image{
+    border-radius: calc(var(--border-redius-primary)*2);
+    padding: calc(var(--padding-primary)/4.5);
+}
+.how-start-stream-card-title{
+    padding: calc(var(--padding-primary)/4.5) 0 0;
+    font-weight: var(--font-weight-bold);
+}
+.how-start-stream-card-content{
+    padding: calc(var(--padding-primary)/4.5) 0 0;
+    margin: 0;
+    color: #666;
+    font-weight: var(--font-weight-normal);
+}

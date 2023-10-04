@@ -1,0 +1,26 @@
+.frotnite-details-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: calc(var(--padding-primary)/4) 0;
+}
+.frotnite-details-img img{
+    flex: 1 1 25%;
+    margin: calc(var(--margin-primary) /4);
+    border-radius: var(--border-redius-primary);
+}
+.frortnite-details-text{
+    margin:0px calc(var(--margin-primary) /4);
+    padding:calc(var(--padding-primary)/6) 0;
+    color: #7d7e7f;
+    line-height: 2rem;
+    font-weight: var(--font-weight-normal);
+}
+.fortnite-details-btn{
+    text-align: center;
+    /* width: 100%; */
+    margin:calc(var(--margin-primary) /4);
+    padding:calc(var(--padding-primary)/6) 0;
+    /* background-color: aquamarine; */
+}

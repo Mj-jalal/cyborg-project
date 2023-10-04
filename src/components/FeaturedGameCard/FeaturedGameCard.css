@@ -1,0 +1,27 @@
+.Featured-game-item{
+    flex: 1 25%;
+    margin:calc(var(--margin-primary)/4) ;
+}
+.featured-game-item-image{
+    width: 100%;
+    border-radius: calc(var(--border-redius-primary)/2);
+    margin-bottom: calc(var(--margin-primary)/2)
+}
+.Featured-game-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.Featured-game-item-content ul{
+    margin: 0 !important;
+}
+
+
+.Featured-game-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    margin: 0 !important;
+}
+.featured-game-category{
+    color: #555657;
+}

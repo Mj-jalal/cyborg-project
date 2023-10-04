@@ -1,0 +1,38 @@
+.user-profile-container{
+    border-bottom: 1px solid #555657;
+    padding:0 0 calc(var(--padding-primary)/2) 0;
+}
+.user-profile-hero-image{
+    border-radius: var(--border-redius-primary);
+}
+.user_profile_left_info{
+    margin: calc(var(--margin-primary)/2) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user_profile_left_info h4{
+    font-weight: var(--font-weight-bold);
+    padding: calc(var(--padding-primary)/2) 0;
+}
+.user_profile_left_info p{
+    padding-bottom: calc(var(--padding-primary)/2) ;
+    color: #555657;
+    font-weight: var(--font-weight-normal);
+}
+.user-profile-right-info{
+    background-color: var(--color-dark);
+    padding: calc(var(--padding-primary)/2) ;
+    border-radius: var(--border-redius-primary);
+}
+.user-profile-right-info li{
+    color: var(--color-primary);
+    padding: calc(var(--padding-primary)/6) 0;
+}
+.user-profile-right-info li > p{
+    color: #555657;
+    font-weight: var(--font-weight-normal);
+}
+.user-profile-right-info li:nth-last-child(n+2){
+    border-bottom: 1px solid #555657;
+}

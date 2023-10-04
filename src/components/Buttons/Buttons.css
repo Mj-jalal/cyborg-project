@@ -1,0 +1,48 @@
+.button a{
+    font-size: 14px;
+    color: var(--color-lite);
+    border-radius: var(--border-redius-primary);
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transform: all .3s;
+}
+.primary-btn a{
+    background-color: var(--color-primary);
+}
+.primary-btn a:hover{
+    background-color: var(--color-lite);
+    color: var(--color-primary);
+}
+
+.secandary-btn a{
+    border: 1px solid var(--color-primary);
+}
+.secandary-btn a:hover{
+    border: 1px solid var(--color-lite);
+    color: var(--color-primary);
+}
+/* .secandary-btn-fortnite{
+width: 100%;
+} */
+.secandary-btn-fortnite a{
+    border: 1px solid var(--color-primary);
+    display: block;
+    color:var(--color-primary);
+}
+.secandary-btn-fortnite a:hover{
+    border: 1px solid var(--color-lite);
+    color: var(--color-primary);
+    background-color: var(--color-lite);
+}
+
+.top-download-view-game-btn{
+    text-align: center;
+    font-weight: var(--font-weight-normal);
+    /* border-top: 1px solid #555657; */
+    padding-top: calc(var(--padding-primary)/2);
+}
+.top-download-view-game-btn a{
+    color: var(--color-primary) !important;
+    font-weight: var(--font-weight-bold);
+    /* padding: 50px !important; */
+}

@@ -1,0 +1,33 @@
+.top-dowload-game-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--padding-primary)/4);
+    border-bottom: 1px solid #27292a;
+}
+.top-dowload-game-image{
+    border-radius: calc(var(--border-redius-primary)/2);
+    margin-bottom: calc(var(--margin-primary)/2)
+}
+.top-download-game-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+    font-weight: var(----font-weight-normal);
+}
+.top-download-catygory{
+    color: #555657;
+
+}
+.top-download-game-content ul{
+    display: flex;
+    padding: 0px;
+}
+.top-download-game-content ul li{
+    padding-right:10px;
+}
+.top-download-game-download{
+    display: flex;
+    align-self: flex-end;
+    font-size: 25px;
+    margin-bottom: calc(var(--margin-primary)/2) ;
+}

@@ -1,0 +1,3 @@
+.view-all-btn{
+    padding: calc(var(--padding-primary)/3.5);
+}

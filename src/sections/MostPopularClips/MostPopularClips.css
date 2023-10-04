@@ -1,0 +1,13 @@
+.most-popular-clips-container{
+    padding: calc(var(--padding-primary)/2)  0 0 0;
+}
+.most-popular-clips-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: calc(var(--padding-primary)/2)  0;
+}
+.most-popular-clips-btn{
+    text-align: center;
+    padding: calc(var(--padding-primary)/4) 0;
+}

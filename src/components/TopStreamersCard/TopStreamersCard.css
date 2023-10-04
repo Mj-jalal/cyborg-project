@@ -1,0 +1,27 @@
+.top-treamer-container{
+    padding: calc(var(--padding-primary)/2.1) 0;
+    border-bottom: 1px solid #353637;
+    /* margin: calc(var(--margin-primary)/2) 0; */
+}
+.top-streamer-avatar{
+    border-radius: var(--border-redius-primary);
+}
+
+.top-streamer-classement{
+    padding: 0 calc(var(--padding-primary)/6);
+    margin: 0;
+    font-weight: var(--font-weight-bold);
+}
+.top-streamer-name{
+    display: inline-block;
+    margin:0 calc(var(--margin-primary)/4) ;
+    color: var(--color-primary);
+}
+.top-streamer-name span{
+    background-color: var(--color-primary);
+    color: var(--color-lite);
+    border-radius: var(--border-redius-primary);
+    padding:.5px 3px;
+    font-size: 14px;
+    margin:calc(var(--margin-primary)/8);
+}
